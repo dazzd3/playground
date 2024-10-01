@@ -7,5 +7,5 @@ class Rollnow:
         return roll1, roll2
 
 
-dice = Rollnow():
+dice = Rollnow()
 print(Rollnow.rolld6)
