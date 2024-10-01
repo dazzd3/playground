@@ -1,7 +1,12 @@
-print("Hello World")
+import random as rd
 
-print("I wonder if this will commit to the git?")
+class Rollnow:
+    def rolld6(self):
+        roll1 = rd.randint(1,6)
+        roll2 = rd.randint(1,6)
+    
+    return roll1, roll2
 
-def rolld6(rollnow)
-    roll1 = randint(1,6)
-    roll2 = randint(1,6)
+
+dice = Rollnow():
+print(Rollnow.rolld6)
