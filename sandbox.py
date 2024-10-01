@@ -8,4 +8,4 @@ class Rollnow:
 
 
 dice = Rollnow()
-print(Rollnow.rolld6())
+print(dice.rolld6())
