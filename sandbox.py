@@ -12,7 +12,7 @@ class Rollnow:
         return roll1, roll2
 
 d6 = Rollnow()
-print(d6.rolld6())
+print('d6 result = ' + str(d6.rolld6()))
 
 d20 = Rollnow()
-print(d20.rolld20())
+print('d20 result = ' + str(d20.rolld20()))
