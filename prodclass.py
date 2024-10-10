@@ -6,6 +6,8 @@ from tkinter import filedialog as fd
 def main():
 
     wb = fd.askopenfile(mode='r')
+    header = wb.readline(0)
+    print(header)
 
 class ProductData:
     def __init__(self, gtin, full_name, brand, sub_brand, functional_name,
